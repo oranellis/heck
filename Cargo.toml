@@ -1,0 +1,8 @@
+[package]
+name = "heck"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = { version = "0.28.1", features = ["event-stream"] }
+rand = "0.9.1"
